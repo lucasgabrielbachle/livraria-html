@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Livro Exemplo 3</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Estilos adicionais para layout lado a lado */
+    .detalhes-livro {
+      display: flex;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      align-items: flex-start;
+    }
+
+    .detalhes-livro img {
+      max-width: 500px;
+      height: auto;
+      border-radius: 5px;
+      flex-shrink: 0;
+    }
+
+    .detalhes-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .detalhes-info p {
+      flex-grow: 1;
+      margin-bottom: 20px;
+    }
+
+    .btn-comprar {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      width: fit-content;
+      transition: background-color 0.3s;
+    }
+
+    .btn-comprar:hover {
+      background-color: #45a049;
+    }
+
+    .preco {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Troca de Livros Usados</h1>
+    <nav>
+      <a href="index.html">Voltar à página inicial</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="detalhes-livro">
+      <img src="image/1200.webp" alt="Capa do livro Exemplo 3" />
+      <div class="detalhes-info">
+        <h2>Livro Exemplo 3</h2>
+        <p>Um mangá envolvente que mistura ação, aventura e fantasia, acompanhando a história de uma jovem reencarnada que busca desvendar os mistérios de seu passado enquanto enfrenta inimigos poderosos e descobre seus verdadeiros poderes.</p>
+        <div class="preco">Preço: R$ 35,00</div>
+        <button class="btn-comprar">Comprar / Reservar</button>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Troca de Livros Usados</p>
+  </footer>
+</body>
+</html>

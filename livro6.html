@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Livro Exemplo 5</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .detalhes-livro {
+      display: flex;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      align-items: flex-start;
+    }
+    .detalhes-livro img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 5px;
+      flex-shrink: 0;
+    }
+    .detalhes-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .detalhes-info p {
+      flex-grow: 1;
+      margin-bottom: 20px;
+    }
+    .btn-comprar {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      width: fit-content;
+      transition: background-color 0.3s;
+    }
+    .btn-comprar:hover {
+      background-color: #45a049;
+    }
+    .preco {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Troca de Livros Usados</h1>
+    <nav>
+      <a href="index.html">Voltar à página inicial</a>
+    </nav>
+  </header>
+  <main>
+    <article class="detalhes-livro">
+      <img src="image/81ecxwQEHLL.jpg" alt="Capa do livro Exemplo 5" />
+      <div class="detalhes-info">
+        <h2>Livro Exemplo 5</h2>
+        <p>Nos dois primeiros volumes de Darling in the FranXX, somos levados a um futuro em que a humanidade vive isolada em fortalezas móveis chamadas Plantations, protegendo-se de criaturas conhecidas como Klaxosaurs. Jovens pilotos são treinados para lutar controlando robôs gigantes chamados FranXX, sempre em duplas — um garoto e uma garota. Entre eles está Hiro, um ex-piloto desmotivado que reencontra seu propósito ao conhecer a enigmática Zero Two, uma garota híbrida famosa por ser perigosa para seus parceiros.
+
+            A parceria entre os dois desperta novas forças, mas também atrai desconfiança e desafios. Conforme as batalhas se intensificam, segredos sobre o passado de Zero Two e a verdadeira natureza do mundo começam a vir à tona. Entre ação, emoção e descobertas, os volumes 1 e 2 exploram o crescimento pessoal de Hiro e Zero Two, o poder dos laços humanos e o preço da liberdade em meio a uma guerra que pode decidir o destino da humanidade.</p>
+        <div class="preco">Preço: R$ 30,00</div>
+        <button class="btn-comprar">Comprar / Reservar</button>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>© 2025 Troca de Livros Usados</p>
+  </footer>
+</body>
+</html>
