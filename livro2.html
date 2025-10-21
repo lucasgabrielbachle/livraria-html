@@ -3,28 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>manga-kakegurui-vol-11</title>
+  <title>Kakegurui-vol.11</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body{
+      background-image: url(https://i0.wp.com/geekpopnews.com.br/wp-content/uploads/2022/06/Copia-de-2-3.jpg?resize=1200%2C640&ssl=1);
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .detalhes-livro {
+      display: flex;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      align-items: flex-start;
+    }
+    .detalhes-livro img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 5px;
+      flex-shrink: 0;
+    }
+    .detalhes-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .detalhes-info p {
+      flex-grow: 1;
+      margin-bottom: 20px;
+    }
+    .btn-comprar {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      width: fit-content;
+      transition: background-color 0.3s;
+    }
+    .btn-comprar:hover {
+      background-color: #45a049;
+    }
+    .preco {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Troca de Livros Usados</h1>
+    <h1>Compra de Livros</h1>
     <nav>
       <a href="index.html">Voltar à página inicial</a>
     </nav>
   </header>
-
   <main>
     <article class="detalhes-livro">
-      <h2>Livro Exemplo 2</h2>
-      <img src="image/manga-kakegurui-vol-11.jpg" alt="Capa do livro Exemplo 2" />
-      <p> Neste volume, a tensão na Academia Hyakkaou atinge seu ápice com apostas ainda mais intensas e estratégias surpreendentes. Yumeko Jabami enfrenta novos desafios que testam sua habilidade de leitura e coragem em jogos arriscados. Entre alianças inesperadas e reviravoltas, o volume 11 aprofunda a psicologia dos personagens, revelando motivações ocultas e aumentando o suspense nas partidas que podem mudar tudo dentro da escola.
-        </p>
+      <img src="image/manga-kakegurui-vol-11.jpg" alt="Capa do livro Exemplo 9" />
+      <div class="detalhes-info">
+        <h2>Kakegurui</h2>
+        <p>Em Kakegurui Volume 11, o intenso conflito pelo poder dentro da Academia Hyakkaou continua. As apostas sobem ainda mais quando novas alianças e traições surgem durante a eleição presidencial. Yumeko Jabami segue apostando tudo em sua paixão pelo risco, enfrentando adversários cada vez mais perigosos e jogos mentais imprevisíveis. Estratégia, manipulação e pura insanidade se misturam em mais um volume cheio de tensão e reviravoltas eletrizantes!</p>
+        <div class="preco">Preço: R$ 30,00</div>
+        <button class="btn-comprar">Comprar / Reservar</button>
+      </div>
     </article>
   </main>
-
   <footer>
-    <p>© 2025 Troca de Livros Usados</p>
+    <p>© 2025 Compra de mangás</p>
   </footer>
 </body>
 </html>

@@ -3,9 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Livro Exemplo 5</title>
+  <title>dont-toy-with-me-vol.1</title>
   <link rel="stylesheet" href="style.css" />
   <style>
+    body{
+        background-image: url(https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/341ee9d0732bd1df3ca278dcaf6e11be.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    /* Estilos adicionais para layout lado a lado */
     .detalhes-livro {
       display: flex;
       gap: 20px;
@@ -17,21 +24,25 @@
       border: 1px solid #ddd;
       align-items: flex-start;
     }
+
     .detalhes-livro img {
-      max-width: 300px;
+      max-width: 500px;
       height: auto;
       border-radius: 5px;
       flex-shrink: 0;
     }
+
     .detalhes-info {
       flex: 1;
       display: flex;
       flex-direction: column;
     }
+
     .detalhes-info p {
       flex-grow: 1;
       margin-bottom: 20px;
     }
+
     .btn-comprar {
       padding: 10px 20px;
       background-color: #4caf50;
@@ -43,9 +54,11 @@
       width: fit-content;
       transition: background-color 0.3s;
     }
+
     .btn-comprar:hover {
       background-color: #45a049;
     }
+
     .preco {
       font-weight: bold;
       margin-bottom: 10px;
@@ -55,7 +68,7 @@
 </head>
 <body>
   <header>
-    <h1>Troca de Livros Usados</h1>
+    <h1>compra de mangás</h1>
     <nav>
       <a href="index.html">Voltar à página inicial</a>
     </nav>
@@ -64,7 +77,7 @@
     <article class="detalhes-livro">
       <img src="image/81kbB1p1AkL.jpg" alt="Capa do livro Exemplo 5" />
       <div class="detalhes-info">
-        <h2></h2>
+        <h2>dont toy with me miss Nagatoro</h2>
         <p>No primeiro volume, conhecemos Nagatoro, uma estudante travessa que adora provocar o tímido Senpai, um colega mais velho do clube de arte. O que começa como uma série de brincadeiras e provocações acaba revelando uma relação divertida e cheia de química entre os dois. Entre risadas, desafios e momentos inesperadamente doces, o volume 1 mostra o início de uma amizade peculiar que pode esconder algo mais profundo por trás das provocações.</p>
         <div class="preco">Preço: R$ 30,00</div>
         <button class="btn-comprar">Comprar / Reservar</button>
@@ -72,7 +85,7 @@
     </article>
   </main>
   <footer>
-    <p>© 2025 Troca de Livros Usados</p>
+    <p>© 2025 compra de mangás MangáHub</p>
   </footer>
 </body>
 </html>

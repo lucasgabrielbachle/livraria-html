@@ -3,27 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>manga-kimetsu-no-yaiba-vol,2</title>
+  <title>Kimetsu-no-Yaiba-vol.2</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body{
+     background-image: url(https://i0.wp.com/tintaeprosa.com.br/wp-content/uploads/2024/02/Kimetsu-no-Yaiba.png?fit=1200%2C750&ssl=1); 
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .detalhes-livro {
+      display: flex;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      align-items: flex-start;
+    }
+    .detalhes-livro img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 5px;
+      flex-shrink: 0;
+    }
+    .detalhes-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .detalhes-info p {
+      flex-grow: 1;
+      margin-bottom: 20px;
+    }
+    .btn-comprar {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      width: fit-content;
+      transition: background-color 0.3s;
+    }
+    .btn-comprar:hover {
+      background-color: #45a049;
+    }
+    .preco {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Troca de Livros Usados</h1>
+    <h1>Compra de Mangás</h1>
     <nav>
       <a href="index.html">Voltar à página inicial</a>
     </nav>
   </header>
-
   <main>
     <article class="detalhes-livro">
-      <h2>kimetsu no yaiba vol.2</h2>
-      <img src="image/demon-slayer.webp" alt="Capa do livro Exemplo 1" />
-      <p>Neste volume, Tanjiro Kamado continua sua jornada como caçador de demônios após completar o rigoroso treinamento inicial. Ao lado de Nezuko, ele enfrenta novos inimigos e descobre mais sobre o mundo sombrio dos Oni. Durante suas missões, Tanjiro demonstra coragem, empatia e determinação em busca de uma cura para sua irmã, enquanto conhece aliados e começa a entender a verdadeira dimensão do poder de Muzan Kibutsuji, o demônio responsável por sua tragédia.</p>
+      <img src="image/demon-slayer.webp" alt="Capa do livro Exemplo 9" />
+      <div class="detalhes-info">
+        <h2>Demon Slayer</h2>
+        <p>Em Demon Slayer Kimetsu no Yaiba Volume 2, Tanjiro inicia oficialmente sua jornada como caçador de demônios após concluir o rigoroso treinamento de Urokodaki. Ao lado de sua irmã Nezuko, ele parte em missão para enfrentar demônios e proteger inocentes. Durante suas batalhas, Tanjiro demonstra determinação e compaixão, mesmo diante de inimigos cruéis. Este volume aprofunda o vínculo entre os irmãos e apresenta novos desafios que testam as habilidades e o coração do protagonista.</p>
+        <div class="preco">Preço: R$ 30,00</div>
+        <button class="btn-comprar">Comprar / Reservar</button>
+      </div>
     </article>
   </main>
-
   <footer>
-    <p>© 2025 Troca de Livros Usados</p>
+    <p>© 2025 Compra de mangás</p>
   </footer>
 </body>
 </html>
