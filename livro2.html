@@ -12,7 +12,8 @@
     background-size: cover;
     background-position: center;
     }
-    .detalhes-livro {
+  /* Estilos adicionais para layout lado a lado */
+  .detalhes-livro {
       display: flex;
       gap: 20px;
       max-width: 800px;
@@ -23,21 +24,25 @@
       border: 1px solid #ddd;
       align-items: flex-start;
     }
+
     .detalhes-livro img {
-      max-width: 300px;
+      max-width: 500px;
       height: auto;
       border-radius: 5px;
       flex-shrink: 0;
     }
+
     .detalhes-info {
       flex: 1;
       display: flex;
       flex-direction: column;
     }
+
     .detalhes-info p {
       flex-grow: 1;
       margin-bottom: 20px;
     }
+
     .btn-comprar {
       padding: 10px 20px;
       background-color: #4caf50;
@@ -49,14 +54,17 @@
       width: fit-content;
       transition: background-color 0.3s;
     }
+
     .btn-comprar:hover {
       background-color: #45a049;
     }
+
     .preco {
       font-weight: bold;
       margin-bottom: 10px;
       font-size: 1.1em;
     }
+    
   </style>
 </head>
 <body>
